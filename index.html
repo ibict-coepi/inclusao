@@ -1,309 +1,201 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projeto PD&I Inclusão Digital - IBICT / MCTI</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>Transparência Ativa - Projeto PD&I</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #0b3d91;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #062a63;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0b3d91;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #eee;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #0b3d91;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <!-- Navigation -->
-  <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-white/80 border-b border-slate-200/50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-      <div class="flex items-center gap-2">
-        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-600"></div>
-        <span class="font-bold text-slate-900">IBICT</span>
-      </div>
-      <div class="hidden md:flex gap-8">
-        <a href="#sobre" class="text-slate-600 hover:text-blue-600 transition">Sobre</a>
-        <a href="#objetivos" class="text-slate-600 hover:text-blue-600 transition">Objetivos</a>
-        <a href="#documentos" class="text-slate-600 hover:text-blue-600 transition">Documentos</a>
-        <a href="#contato" class="text-slate-600 hover:text-blue-600 transition">Contato</a>
-      </div>
-      <a href="https://www.gov.br/" target="_blank" class="text-sm font-semibold text-blue-600">GOV.BR</a>
-    </div>
-  </nav>
 
-  <!-- Hero Section -->
-  <section class="relative min-h-screen flex items-center justify-center pt-20 pb-20 overflow-hidden">
-    <!-- Animated gradient background -->
-    <div class="absolute inset-0 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50"></div>
-    <div class="absolute top-20 left-10 w-72 h-72 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse"></div>
-    <div class="absolute top-40 right-10 w-72 h-72 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style="animation-delay: 2s"></div>
-    <div class="absolute -bottom-8 left-20 w-72 h-72 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse" style="animation-delay: 4s"></div>
+<header>
+  <h1>Portal de Transparência Ativa</h1>
+  <p>Projeto de Pesquisa em Transformação Digital Inclusiva</p>
+</header>
 
-    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
-      <div class="inline-block mb-4 px-4 py-2 bg-blue-100/80 rounded-full border border-blue-200/50">
-        <span class="text-sm font-semibold text-blue-700">🚀 Projeto Estratégico MCTI</span>
-      </div>
-      <h1 class="text-5xl md:text-6xl font-black bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent mb-6 leading-tight">
-        Transformação Digital Inclusiva
-      </h1>
-      <p class="text-xl md:text-2xl text-slate-600 mb-8 leading-relaxed">
-        Pesquisa, Desenvolvimento e Inovação em Informação para cidadania, acessibilidade e ensino
-      </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-        <a href="#documentos" class="px-8 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition">
-          Documentos
-        </a>
-        <a href="#objetivos" class="px-8 py-3 bg-white border-2 border-slate-200 text-slate-700 rounded-lg font-semibold hover:border-blue-300 hover:bg-blue-50/50 transition">
-          Saiba Mais
-        </a>
-      </div>
+<nav>
+  <a href="#projeto">Projeto</a>
+  <a href="#contrato">Contrato</a>
+  <a href="#equipe">Equipe</a>
+  <a href="#orcamento">Orçamento</a>
+  <a href="#documentos">Documentos</a>
+</nav>
 
-      <!-- Stats -->
-      <div class="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-        <div class="backdrop-blur-sm bg-white/30 rounded-lg p-4 border border-white/50">
-          <div class="text-2xl font-bold text-blue-600">R$ 2M</div>
-          <div class="text-sm text-slate-600">Financiamento</div>
-        </div>
-        <div class="backdrop-blur-sm bg-white/30 rounded-lg p-4 border border-white/50">
-          <div class="text-2xl font-bold text-indigo-600">2028</div>
-          <div class="text-sm text-slate-600">Duração</div>
-        </div>
-        <div class="backdrop-blur-sm bg-white/30 rounded-lg p-4 border border-white/50">
-          <div class="text-2xl font-bold text-purple-600">34+</div>
-          <div class="text-sm text-slate-600">Pesquisadores</div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section id="projeto">
+  <h2>Sobre o Projeto</h2>
+  <div class="card">
+    <p>
+      O projeto <strong>“Pesquisa, Desenvolvimento e Inovação (PD&I) em Informação para a Transformação Digital Inclusiva”</strong>
+      tem como objetivo promover soluções tecnológicas voltadas à cidadania, acessibilidade e ensino.
+    </p>
 
-  <!-- About Section -->
-  <section id="sobre" class="py-20 px-4 relative">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-slate-900 mb-4">Sobre o Projeto</h2>
-      <p class="text-lg text-slate-600 mb-12 max-w-2xl">
-        Uma iniciativa inovadora que promove competências informacionais e transformação digital inclusiva para todos
-      </p>
+    <p>
+      A iniciativa busca reduzir desigualdades digitais, desenvolver tecnologias inclusivas e criar um ecossistema
+      de inovação baseado em justiça social e acesso equitativo à informação.
+    </p>
+  </div>
+</section>
 
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="group">
-          <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-blue-50 to-indigo-50 p-6 border border-slate-200/50 hover:border-blue-200 transition">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-blue-100 rounded-full -mr-16 -mt-16 opacity-50"></div>
-            <div class="relative z-10">
-              <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center text-white mb-4 group-hover:scale-110 transition">
-                🎓
-              </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-2">Capacitação</h3>
-              <p class="text-slate-600">Trilhas formativas certificadas para agentes e sociedade civil</p>
-            </div>
-          </div>
-        </div>
+<section id="contrato">
+  <h2>Contrato</h2>
+  <div class="card">
+    <p><strong>Nº:</strong> 027/2025</p>
+    <p><strong>Instituições:</strong> IBICT e FUNDEP</p>
+    <p>
+      O contrato estabelece apoio à gestão administrativa e financeira do projeto,
+      incluindo execução, prestação de contas e aplicação dos recursos.
+    </p>
 
-        <div class="group">
-          <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-indigo-50 to-purple-50 p-6 border border-slate-200/50 hover:border-indigo-200 transition">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-100 rounded-full -mr-16 -mt-16 opacity-50"></div>
-            <div class="relative z-10">
-              <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center text-white mb-4 group-hover:scale-110 transition">
-                ♿
-              </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-2">Acessibilidade</h3>
-              <p class="text-slate-600">Recursos e plataformas inclusivas para todos os públicos</p>
-            </div>
-          </div>
-        </div>
+    <a class="btn" href="Contrato_IBICT_FUNDEP_nA___272025.pdf" target="_blank">Ver contrato</a>
+  </div>
+</section>
 
-        <div class="group">
-          <div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-purple-50 to-pink-50 p-6 border border-slate-200/50 hover:border-purple-200 transition">
-            <div class="absolute top-0 right-0 w-32 h-32 bg-purple-100 rounded-full -mr-16 -mt-16 opacity-50"></div>
-            <div class="relative z-10">
-              <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center text-white mb-4 group-hover:scale-110 transition">
-                🔗
-              </div>
-              <h3 class="text-xl font-bold text-slate-900 mb-2">Hub de Dados</h3>
-              <p class="text-slate-600">Centralizar conhecimentos e soluções digitais</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<section id="equipe">
+  <h2>Equipe Executora</h2>
+  <div class="card">
+    <p><strong>Coordenação:</strong> Gustavo Silva Saldanha</p>
 
-  <!-- Objectives Section -->
-  <section id="objetivos" class="py-20 px-4 bg-gradient-to-b from-slate-50 to-white">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-slate-900 mb-4">Objetivos Específicos</h2>
-      <p class="text-lg text-slate-600 mb-12 max-w-2xl">Metas e resultados esperados</p>
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Função</th>
+      </tr>
+      <tr><td>Luana da Costa Lisboa</td><td>Pesquisadora</td></tr>
+      <tr><td>David Baiao Nemer</td><td>Pesquisador</td></tr>
+      <tr><td>Christine Alvarez</td><td>Pesquisadora</td></tr>
+      <tr><td>José Augusto da Costa Carvalho</td><td>Pesquisador</td></tr>
+      <tr><td>Luciane Beckman Cavalcante</td><td>Pesquisadora</td></tr>
+    </table>
 
-      <div class="space-y-4">
-        <div class="backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-blue-200 transition hover:bg-white/80">
-          <div class="flex items-start gap-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold">OE1</div>
-            <div>
-              <h3 class="font-bold text-slate-900 mb-1">Investigar desafios e oportunidades</h3>
-              <p class="text-slate-600">Explorar condições técnicas e sociotécnicas de IoT, IA e tecnologias em contextos de vulnerabilidade social</p>
-            </div>
-          </div>
-        </div>
-        <div class="backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-indigo-200 transition hover:bg-white/80">
-          <div class="flex items-start gap-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-indigo-600 flex items-center justify-center text-white font-bold">OE2</div>
-            <div>
-              <h3 class="font-bold text-slate-900 mb-1">Desenvolver soluções inovadoras</h3>
-              <p class="text-slate-600">Criar infraestruturas, plataformas e protótipos orientados à acessibilidade e inclusão</p>
-            </div>
-          </div>
-        </div>
-        <div class="backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-purple-200 transition hover:bg-white/80">
-          <div class="flex items-start gap-4">
-            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white font-bold">OE3</div>
-            <div>
-              <h3 class="font-bold text-slate-900 mb-1">Fomentar educação digital</h3>
-              <p class="text-slate-600">Programas de capacitação e trilhas certificadas para ampliar competências digitais críticas</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <a class="btn" href="Formulario_de_Equipe_Executora_Inicial.pdf" target="_blank">
+      Ver equipe completa
+    </a>
+  </div>
+</section>
 
-  <!-- Documents Section -->
-  <section id="documentos" class="py-20 px-4">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-slate-900 mb-4">Documentos Oficiais</h2>
-      <p class="text-lg text-slate-600 mb-12">Transparência e acesso completo aos projetos</p>
+<section id="orcamento">
+  <h2>Orçamento</h2>
+  <div class="card">
+    <p><strong>Valor Global:</strong> R$ 2.000.000,00</p>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="attachments/Contrato_IBICT_FUNDEP_nA___272025.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-blue-300 transition hover:shadow-lg hover:shadow-blue-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-blue-600">📄</div>
-            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition">Contrato IBICT / FUNDEP</h3>
-          <p class="text-sm text-slate-600">Instrumento de prestação de serviços de gestão administrativa e financeira</p>
-        </a>
+    <table>
+      <tr>
+        <th>Categoria</th>
+        <th>Valor</th>
+      </tr>
+      <tr><td>Bolsas de Pesquisa</td><td>R$ 500.000+</td></tr>
+      <tr><td>Serviços Especializados</td><td>R$ 100.000+</td></tr>
+      <tr><td>Passagens e Diárias</td><td>R$ 34.000</td></tr>
+      <tr><td>Custo Operacional</td><td>R$ 67.500+</td></tr>
+    </table>
 
-        <a href="attachments/Formulario_de_Equipe_Executora_Inicial.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-indigo-300 transition hover:shadow-lg hover:shadow-indigo-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-indigo-600">👥</div>
-            <span class="text-xs font-semibold text-indigo-600 bg-indigo-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-indigo-600 transition">Formulário de Equipe</h3>
-          <p class="text-sm text-slate-600">Composição da equipe científica e administrativa com funções</p>
-        </a>
+    <a class="btn" href="Plano_de_Aplicacao.pdf" target="_blank">
+      Ver plano completo
+    </a>
+  </div>
+</section>
 
-        <a href="attachments/Plano_de_Aplicacao.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-purple-300 transition hover:shadow-lg hover:shadow-purple-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-purple-100 flex items-center justify-center text-purple-600">💰</div>
-            <span class="text-xs font-semibold text-purple-600 bg-purple-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-purple-600 transition">Plano de Aplicação</h3>
-          <p class="text-sm text-slate-600">Plano orçamentário detalhado com custos e recursos</p>
-        </a>
+<section id="documentos">
+  <h2>Documentos</h2>
+  <div class="card">
+    <ul>
+      <li><a href="Projeto_Basico___Tecnologias_Digitais_DF.pdf" target="_blank">Projeto Básico</a></li>
+      <li><a href="Plano_de_Trabalho_Simplificado.pdf" target="_blank">Plano de Trabalho</a></li>
+      <li><a href="Plano_de_Aplicacao.pdf" target="_blank">Plano de Aplicação</a></li>
+      <li><a href="Formulario_de_Equipe_Executora_Inicial.pdf" target="_blank">Equipe</a></li>
+      <li><a href="Contrato_IBICT_FUNDEP_nA___272025.pdf" target="_blank">Contrato</a></li>
+    </ul>
+  </div>
+</section>
 
-        <a href="attachments/Plano_de_Trabalho_Simplificado.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-green-300 transition hover:shadow-lg hover:shadow-green-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-green-100 flex items-center justify-center text-green-600">📋</div>
-            <span class="text-xs font-semibold text-green-600 bg-green-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-green-600 transition">Plano de Trabalho</h3>
-          <p class="text-sm text-slate-600">Plano de trabalho com apresentação e justificativa</p>
-        </a>
+<footer>
+  <p>© 2026 - Portal de Transparência Ativa | Projeto PD&I</p>
+</footer>
 
-        <a href="attachments/Projeto_Basico___Tecnologias_Digitais_DF.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-orange-300 transition hover:shadow-lg hover:shadow-orange-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-orange-100 flex items-center justify-center text-orange-600">🎯</div>
-            <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-orange-600 transition">Projeto Básico - DF</h3>
-          <p class="text-sm text-slate-600">Projeto básico para transformação digital inclusiva no DF</p>
-        </a>
-
-        <a href="attachments/Proposta_Fundep_nA___334163.pdf" target="_blank" class="group backdrop-blur-sm bg-white/50 rounded-lg p-6 border border-slate-200/50 hover:border-pink-300 transition hover:shadow-lg hover:shadow-pink-500/10">
-          <div class="flex items-start justify-between mb-3">
-            <div class="w-10 h-10 rounded-lg bg-pink-100 flex items-center justify-center text-pink-600">📊</div>
-            <span class="text-xs font-semibold text-pink-600 bg-pink-50 px-2 py-1 rounded">PDF</span>
-          </div>
-          <h3 class="font-bold text-slate-900 mb-2 group-hover:text-pink-600 transition">Proposta FUNDEP</h3>
-          <p class="text-sm text-slate-600">Proposta para gestão administrativa e financeira</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Partnerships -->
-  <section class="py-20 px-4 bg-gradient-to-b from-slate-50 to-blue-50">
-    <div class="max-w-6xl mx-auto">
-      <h2 class="text-4xl font-bold text-slate-900 mb-4">Parceiros e Instituições</h2>
-      <p class="text-lg text-slate-600 mb-12">Colaboração interinstitucional para impacto social</p>
-
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="backdrop-blur-sm bg-white/60 rounded-lg p-8 border border-white/80">
-          <h3 class="text-xl font-bold text-slate-900 mb-4">🏛️ Principais Instituições</h3>
-          <ul class="space-y-3">
-            <li class="flex items-start gap-3">
-              <span class="text-blue-600 mt-1">✓</span>
-              <div>
-                <div class="font-semibold text-slate-900">IBICT</div>
-                <div class="text-sm text-slate-600">Instituto Brasileiro de Informação em Ciência e Tecnologia</div>
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-indigo-600 mt-1">✓</span>
-              <div>
-                <div class="font-semibold text-slate-900">COEPI</div>
-                <div class="text-sm text-slate-600">Coordenação de Ensino e Pesquisa em Informação</div>
-              </div>
-            </li>
-            <li class="flex items-start gap-3">
-              <span class="text-purple-600 mt-1">✓</span>
-              <div>
-                <div class="font-semibold text-slate-900">Enacin</div>
-                <div class="text-sm text-slate-600">Escola Nacional de Informação</div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="backdrop-blur-sm bg-white/60 rounded-lg p-8 border border-white/80">
-          <h3 class="text-xl font-bold text-slate-900 mb-4">🤝 Apoio Administrativo</h3>
-          <div class="mb-4">
-            <div class="font-semibold text-slate-900">FUNDEP</div>
-            <div class="text-sm text-slate-600">Fundação de Desenvolvimento da Pesquisa</div>
-          </div>
-          <p class="text-slate-600 text-sm mb-4">
-            Execução administrativa e financeira de contratos, gestão de pessoal, compras e prestação de contas.
-          </p>
-          <div class="pt-4 border-t border-slate-200">
-            <div class="font-semibold text-slate-700 mb-2">Coordenação</div>
-            <div class="text-slate-600">Ricardo M. Pimenta</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="contato" class="py-12 px-4 bg-slate-900 text-white">
-    <div class="max-w-6xl mx-auto">
-      <div class="grid md:grid-cols-3 gap-8 mb-8">
-        <div>
-          <h4 class="font-bold mb-3">IBICT</h4>
-          <p class="text-slate-400 text-sm">Instituto Brasileiro de Informação em Ciência e Tecnologia</p>
-          <div class="text-slate-400 text-sm mt-3">
-            <p>📍 Brasília, DF</p>
-            <p>📞 +55 61 3217-6350</p>
-          </div>
-        </div>
-        <div>
-          <h4 class="font-bold mb-3">MCTI</h4>
-          <p class="text-slate-400 text-sm">Ministério da Ciência, Tecnologia e Inovações</p>
-          <p class="text-slate-400 text-sm mt-3">Promovendo transformação digital inclusiva</p>
-        </div>
-        <div>
-          <h4 class="font-bold mb-3">Links Úteis</h4>
-          <ul class="space-y-2 text-sm">
-            <li><a href="https://www.ibict.br" target="_blank" class="text-blue-400 hover:text-blue-300">www.ibict.br</a></li>
-            <li><a href="https://www.gov.br/" target="_blank" class="text-blue-400 hover:text-blue-300">www.gov.br</a></li>
-            <li><a href="https://www.gov.br/mcti" target="_blank" class="text-blue-400 hover:text-blue-300">MCTI - gov.br</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="border-t border-slate-800 pt-8 text-center text-slate-400 text-sm">
-        <p>© 2025-2028 Projeto PD&I em Informação para a Transformação Digital Inclusiva | IBICT / MCTI</p>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
