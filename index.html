@@ -1,200 +1,186 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Transparência Ativa - Projeto PD&I</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transparência Ativa | Projeto PD&I</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Gov.br Design System (CDN simplificado) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@govbr-ds/core/dist/core.min.css">
 
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f5f7fa;
-      color: #333;
+      background: #f8f8f8;
     }
 
-    header {
-      background: #0b3d91;
+    .hero {
+      background: linear-gradient(90deg, #1351b4, #0c326f);
       color: white;
-      padding: 20px;
-      text-align: center;
+      padding: 40px 20px;
     }
 
-    nav {
-      background: #062a63;
-      padding: 10px;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
+    .hero h1 {
+      margin-bottom: 10px;
     }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      padding: 40px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #0b3d91;
+    .section {
+      padding: 40px 0;
     }
 
     .card {
       background: white;
+      border-radius: 6px;
       padding: 20px;
-      margin-top: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      height: 100%;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
     }
 
     footer {
-      background: #0b3d91;
+      background: #071d41;
       color: white;
-      text-align: center;
-      padding: 20px;
+      padding: 30px;
       margin-top: 40px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 20px;
-    }
-
-    table, th, td {
-      border: 1px solid #ddd;
-    }
-
-    th, td {
-      padding: 10px;
-      text-align: left;
-    }
-
-    th {
-      background: #eee;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 15px;
-      background: #0b3d91;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-top: 10px;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Portal de Transparência Ativa</h1>
-  <p>Projeto de Pesquisa em Transformação Digital Inclusiva</p>
+<!-- Barra Gov.br -->
+<div class="br-header">
+  <div class="container-lg">
+    <div class="header-top">
+      <div class="header-logo">
+        <span class="br-logo">gov.br</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Cabeçalho institucional -->
+<header class="hero">
+  <div class="container-lg">
+    <h1>Transparência Ativa</h1>
+    <p>Projeto PD&I em Transformação Digital Inclusiva</p>
+    <p><strong>IBICT • Ministério da Ciência, Tecnologia e Inovação</strong></p>
+  </div>
 </header>
 
-<nav>
-  <a href="#projeto">Projeto</a>
-  <a href="#contrato">Contrato</a>
-  <a href="#equipe">Equipe</a>
-  <a href="#orcamento">Orçamento</a>
-  <a href="#documentos">Documentos</a>
-</nav>
+<!-- Conteúdo -->
+<main class="container-lg">
 
-<section id="projeto">
-  <h2>Sobre o Projeto</h2>
-  <div class="card">
-    <p>
-      O projeto <strong>“Pesquisa, Desenvolvimento e Inovação (PD&I) em Informação para a Transformação Digital Inclusiva”</strong>
-      tem como objetivo promover soluções tecnológicas voltadas à cidadania, acessibilidade e ensino.
-    </p>
+  <!-- SOBRE -->
+  <section class="section">
+    <h2 class="br-title">Informações do Projeto</h2>
 
-    <p>
-      A iniciativa busca reduzir desigualdades digitais, desenvolver tecnologias inclusivas e criar um ecossistema
-      de inovação baseado em justiça social e acesso equitativo à informação.
-    </p>
-  </div>
-</section>
+    <div class="card">
+      <p><strong>Título:</strong> Pesquisa, Desenvolvimento e Inovação (PD&I) em Informação para a Transformação Digital Inclusiva</p>
 
-<section id="contrato">
-  <h2>Contrato</h2>
-  <div class="card">
-    <p><strong>Nº:</strong> 027/2025</p>
-    <p><strong>Instituições:</strong> IBICT e FUNDEP</p>
-    <p>
-      O contrato estabelece apoio à gestão administrativa e financeira do projeto,
-      incluindo execução, prestação de contas e aplicação dos recursos.
-    </p>
+      <p><strong>Objetivo:</strong> Desenvolvimento de soluções digitais inclusivas com foco em cidadania, acessibilidade e ensino.</p>
 
-    <a class="btn" href="Contrato_IBICT_FUNDEP_nA___272025.pdf" target="_blank">Ver contrato</a>
-  </div>
-</section>
+      <p><strong>Vigência:</strong> 2025–2027</p>
 
-<section id="equipe">
-  <h2>Equipe Executora</h2>
-  <div class="card">
-    <p><strong>Coordenação:</strong> Gustavo Silva Saldanha</p>
+      <p><strong>Valor Global:</strong> R$ 2.000.000,00</p>
+    </div>
+  </section>
 
-    <table>
-      <tr>
-        <th>Nome</th>
-        <th>Função</th>
-      </tr>
-      <tr><td>Luana da Costa Lisboa</td><td>Pesquisadora</td></tr>
-      <tr><td>David Baiao Nemer</td><td>Pesquisador</td></tr>
-      <tr><td>Christine Alvarez</td><td>Pesquisadora</td></tr>
-      <tr><td>José Augusto da Costa Carvalho</td><td>Pesquisador</td></tr>
-      <tr><td>Luciane Beckman Cavalcante</td><td>Pesquisadora</td></tr>
-    </table>
+  <!-- CARDS PRINCIPAIS -->
+  <section class="section">
+    <h2 class="br-title">Transparência</h2>
 
-    <a class="btn" href="Formulario_de_Equipe_Executora_Inicial.pdf" target="_blank">
-      Ver equipe completa
-    </a>
-  </div>
-</section>
+    <div class="grid">
 
-<section id="orcamento">
-  <h2>Orçamento</h2>
-  <div class="card">
-    <p><strong>Valor Global:</strong> R$ 2.000.000,00</p>
+      <div class="card">
+        <h3>Instrumento Jurídico</h3>
+        <p>Contrato nº 027/2025 firmado entre IBICT e FUNDEP.</p>
+        <a class="br-button primary" href="Contrato_IBICT_FUNDEP_nA___272025.pdf">Acessar</a>
+      </div>
 
-    <table>
-      <tr>
-        <th>Categoria</th>
-        <th>Valor</th>
-      </tr>
-      <tr><td>Bolsas de Pesquisa</td><td>R$ 500.000+</td></tr>
-      <tr><td>Serviços Especializados</td><td>R$ 100.000+</td></tr>
-      <tr><td>Passagens e Diárias</td><td>R$ 34.000</td></tr>
-      <tr><td>Custo Operacional</td><td>R$ 67.500+</td></tr>
-    </table>
+      <div class="card">
+        <h3>Equipe Executora</h3>
+        <p>Lista de pesquisadores, coordenação e participantes do projeto.</p>
+        <a class="br-button primary" href="Formulario_de_Equipe_Executora_Inicial.pdf">Ver equipe</a>
+      </div>
 
-    <a class="btn" href="Plano_de_Aplicacao.pdf" target="_blank">
-      Ver plano completo
-    </a>
-  </div>
-</section>
+      <div class="card">
+        <h3>Plano de Aplicação</h3>
+        <p>Detalhamento das despesas, bolsas e execução financeira.</p>
+        <a class="br-button primary" href="Plano_de_Aplicacao.pdf">Consultar</a>
+      </div>
 
-<section id="documentos">
-  <h2>Documentos</h2>
-  <div class="card">
-    <ul>
-      <li><a href="Projeto_Basico___Tecnologias_Digitais_DF.pdf" target="_blank">Projeto Básico</a></li>
-      <li><a href="Plano_de_Trabalho_Simplificado.pdf" target="_blank">Plano de Trabalho</a></li>
-      <li><a href="Plano_de_Aplicacao.pdf" target="_blank">Plano de Aplicação</a></li>
-      <li><a href="Formulario_de_Equipe_Executora_Inicial.pdf" target="_blank">Equipe</a></li>
-      <li><a href="Contrato_IBICT_FUNDEP_nA___272025.pdf" target="_blank">Contrato</a></li>
-    </ul>
-  </div>
-</section>
+      <div class="card">
+        <h3>Plano de Trabalho</h3>
+        <p>Objetivos, metas e entregas do projeto.</p>
+        <a class="br-button primary" href="Plano_de_Trabalho_Simplificado.pdf">Acessar</a>
+      </div>
 
+    </div>
+  </section>
+
+  <!-- ORÇAMENTO -->
+  <section class="section">
+    <h2 class="br-title">Execução Orçamentária</h2>
+
+    <div class="card">
+      <table class="br-table">
+        <thead>
+          <tr>
+            <th>Categoria</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bolsas</td>
+            <td>Pesquisadores e assistentes</td>
+          </tr>
+          <tr>
+            <td>Serviços</td>
+            <td>Serviços especializados (PF/PJ)</td>
+          </tr>
+          <tr>
+            <td>Custeio</td>
+            <td>Material de consumo</td>
+          </tr>
+          <tr>
+            <td>Diárias e Passagens</td>
+            <td>Deslocamentos institucionais</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- DOCUMENTOS -->
+  <section class="section">
+    <h2 class="br-title">Documentos Públicos</h2>
+
+    <div class="card">
+      <ul class="br-list">
+        <li><a href="Projeto_Basico___Tecnologias_Digitais_DF.pdf">Projeto Básico</a></li>
+        <li><a href="Plano_de_Trabalho_Simplificado.pdf">Plano de Trabalho</a></li>
+        <li><a href="Plano_de_Aplicacao.pdf">Plano de Aplicação</a></li>
+        <li><a href="Formulario_de_Equipe_Executora_Inicial.pdf">Equipe Executora</a></li>
+        <li><a href="Contrato_IBICT_FUNDEP_nA___272025.pdf">Contrato</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- Rodapé -->
 <footer>
-  <p>© 2026 - Portal de Transparência Ativa | Projeto PD&I</p>
+  <div class="container-lg">
+    <p><strong>Ministério da Ciência, Tecnologia e Inovação</strong></p>
+    <p>Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT)</p>
+    <p>Transparência Ativa • Lei de Acesso à Informação (Lei nº 12.527/2011)</p>
+  </div>
 </footer>
 
 </body>
