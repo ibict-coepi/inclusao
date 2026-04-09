@@ -1,43 +1,238 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Transparência Ativa</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Transparência Ativa | PD&I</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+<style>
+body { margin:0; font-family: 'Inter', sans-serif; background:#f5f7fa; }
+
+header { background:#1351b4; color:white; padding:15px; font-weight:800; }
+
+.hero {
+  background: linear-gradient(135deg,#1351b4,#0c326f);
+  color:white;
+  padding:60px 20px;
+  text-align:center;
+}
+
+nav {
+  display:flex;
+  justify-content:center;
+  gap:15px;
+  background:white;
+  padding:15px;
+  position:sticky;
+  top:0;
+  border-bottom:1px solid #ddd;
+}
+
+nav a {
+  text-decoration:none;
+  font-weight:600;
+  color:#555;
+}
+
+nav a.active { color:#1351b4; }
+
+.container {
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:20px;
+  max-width:1100px;
+  margin:auto;
+  padding:20px;
+}
+
+.card {
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  margin-bottom:20px;
+  transition:0.3s;
+}
+
+.card:hover { transform:translateY(-3px); }
+
+.sidebar {
+  background:#0c326f;
+  color:white;
+}
+
+input {
+  width:100%;
+  padding:10px;
+  margin-bottom:10px;
+}
+
+footer {
+  background:#071d41;
+  color:white;
+  padding:30px;
+  text-align:center;
+}
+
+/* animação */
+.fade {
+  opacity:0;
+  transform:translateY(20px);
+  transition:0.6s;
+}
+
+.fade.show {
+  opacity:1;
+  transform:translateY(0);
+}
+
+@media(max-width:800px){
+  .container { grid-template-columns:1fr; }
+}
+</style>
 </head>
 
-<body style="font-family: Arial; margin:0;">
+<body>
 
-<header style="background:#1351b4;color:white;padding:20px;">
-  <h1>Transparência Ativa</h1>
-</header>
+<header>Portal de Transparência</header>
 
-<nav style="background:#eee;padding:10px;">
-  <a href="#projeto">Projeto</a> |
-  <a href="#justificativa">Justificativa</a> |
-  <a href="#metas">Metas</a> |
+<section class="hero">
+  <h1>PD&I em Transformação Digital Inclusiva</h1>
+  <p>Cidadania, acessibilidade e tecnologia</p>
+</section>
+
+<nav id="menu">
+  <a href="#projeto">Projeto</a>
+  <a href="#justificativa">Justificativa</a>
+  <a href="#metas">Metas</a>
+  <a href="#metodo">Método</a>
   <a href="#equipe">Equipe</a>
+  <a href="#atualizacoes">Atualizações</a>
 </nav>
 
-<div style="padding:20px;">
+<div class="container">
 
-<h2 id="projeto">Projeto</h2>
-<p>Projeto de transformação digital inclusiva.</p>
+<div>
 
-<h2 id="justificativa">Justificativa</h2>
-<p>Promover inclusão digital e cidadania.</p>
+<div class="card fade" id="projeto">
+<h2>Projeto</h2>
+<p>Projeto estratégico de PD&I voltado à transformação digital inclusiva.</p>
+</div>
 
-<h2 id="metas">Metas</h2>
-<p>Desenvolver soluções tecnológicas e capacitação.</p>
+<div class="card fade" id="justificativa">
+<h2>Justificativa</h2>
+<p>Inclusão digital e redução de desigualdades sociais.</p>
+</div>
 
-<h2 id="equipe">Equipe</h2>
-<p>Equipe do IBICT.</p>
+<div class="card fade" id="metas">
+<h2>Metas</h2>
+<ul>
+<li>Diagnóstico nacional</li>
+<li>Implantação Hub-i3</li>
+<li>Capacitação</li>
+</ul>
+</div>
+
+<div class="card fade" id="metodo">
+<h2>Método</h2>
+<p>Pesquisa + desenvolvimento + disseminação.</p>
+</div>
+
+<div class="card fade" id="equipe">
+<h2>Equipe</h2>
+
+<input type="text" id="filtro" placeholder="Filtrar equipe">
+
+<div id="listaEquipe"></div>
 
 </div>
 
-<footer style="background:#071d41;color:white;padding:20px;">
-  IBICT • MCTI
-</footer>
+<div class="card fade" id="atualizacoes">
+<h2>Atualizações</h2>
+<p>08/04/2026 — Portal lançado</p>
+<p>15/03/2026 — Início do projeto</p>
+</div>
+
+</div>
+
+<div class="card sidebar">
+<h3>Dados Oficiais</h3>
+<p>Valor: R$ 2.000.000</p>
+<p>Status: Vigente</p>
+<p>IBICT / MCTI</p>
+</div>
+
+</div>
+
+<footer>IBICT • MCTI</footer>
+
+<script>
+// DADOS
+const equipe = [
+  "Ricardo M. Pimenta",
+  "Andreia Rodrigues",
+  "Luana Lisboa",
+  "Juliana Aguiar"
+];
+
+// render equipe
+const lista = document.getElementById("listaEquipe");
+
+function renderEquipe(filtro=""){
+  lista.innerHTML = "";
+  equipe
+    .filter(nome => nome.toLowerCase().includes(filtro.toLowerCase()))
+    .forEach(nome => {
+      const div = document.createElement("div");
+      div.textContent = nome;
+      lista.appendChild(div);
+    });
+}
+
+renderEquipe();
+
+// filtro
+document.getElementById("filtro").addEventListener("input", (e)=>{
+  renderEquipe(e.target.value);
+});
+
+// scroll spy (menu ativo)
+const sections = document.querySelectorAll(".card");
+const links = document.querySelectorAll("nav a");
+
+window.addEventListener("scroll", ()=>{
+  let current = "";
+
+  sections.forEach(sec=>{
+    const top = sec.offsetTop - 150;
+    if(window.scrollY >= top){
+      current = sec.id;
+    }
+  });
+
+  links.forEach(a=>{
+    a.classList.remove("active");
+    if(a.getAttribute("href") === "#"+current){
+      a.classList.add("active");
+    }
+  });
+});
+
+// animação
+const fades = document.querySelectorAll(".fade");
+
+window.addEventListener("scroll", ()=>{
+  fades.forEach(el=>{
+    const top = el.getBoundingClientRect().top;
+    if(top < window.innerHeight - 100){
+      el.classList.add("show");
+    }
+  });
+});
+</script>
 
 </body>
 </html>
