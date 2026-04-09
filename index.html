@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Transparência Ativa | PD&I</title>
+<title>Transparência Ativa | PD&I Inclusão Digital</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
 <style>
-body { margin:0; font-family: 'Inter', sans-serif; background:#f5f7fa; }
+body { margin:0; font-family:'Inter',sans-serif; background:#f4f6f8; }
 
 header { background:#1351b4; color:white; padding:15px; font-weight:800; }
 
@@ -19,6 +19,9 @@ header { background:#1351b4; color:white; padding:15px; font-weight:800; }
   padding:60px 20px;
   text-align:center;
 }
+
+.hero h1 { margin:0; font-size:30px; }
+.hero p { opacity:0.9; }
 
 nav {
   display:flex;
@@ -31,12 +34,7 @@ nav {
   border-bottom:1px solid #ddd;
 }
 
-nav a {
-  text-decoration:none;
-  font-weight:600;
-  color:#555;
-}
-
+nav a { text-decoration:none; font-weight:600; color:#555; }
 nav a.active { color:#1351b4; }
 
 .container {
@@ -52,22 +50,25 @@ nav a.active { color:#1351b4; }
   background:white;
   padding:20px;
   border-radius:12px;
-  box-shadow:0 5px 20px rgba(0,0,0,0.05);
+  box-shadow:0 4px 15px rgba(0,0,0,0.05);
   margin-bottom:20px;
-  transition:0.3s;
 }
 
-.card:hover { transform:translateY(-3px); }
+h2 { color:#1351b4; }
 
 .sidebar {
   background:#0c326f;
   color:white;
 }
 
-input {
-  width:100%;
-  padding:10px;
-  margin-bottom:10px;
+.tag {
+  display:inline-block;
+  background:#e8f0fe;
+  color:#1351b4;
+  padding:5px 10px;
+  border-radius:8px;
+  font-size:12px;
+  margin-top:10px;
 }
 
 footer {
@@ -77,17 +78,8 @@ footer {
   text-align:center;
 }
 
-/* animação */
-.fade {
-  opacity:0;
-  transform:translateY(20px);
-  transition:0.6s;
-}
-
-.fade.show {
-  opacity:1;
-  transform:translateY(0);
-}
+.fade { opacity:0; transform:translateY(20px); transition:0.6s; }
+.fade.show { opacity:1; transform:translateY(0); }
 
 @media(max-width:800px){
   .container { grid-template-columns:1fr; }
@@ -97,14 +89,14 @@ footer {
 
 <body>
 
-<header>Portal de Transparência</header>
+<header>Portal de Transparência Ativa</header>
 
 <section class="hero">
-  <h1>PD&I em Transformação Digital Inclusiva</h1>
-  <p>Cidadania, acessibilidade e tecnologia</p>
+  <h1>PD&I em Informação para a Transformação Digital Inclusiva</h1>
+  <p>Projeto público voltado à inclusão digital, acessibilidade e soberania tecnológica</p>
 </section>
 
-<nav id="menu">
+<nav>
   <a href="#projeto">Projeto</a>
   <a href="#justificativa">Justificativa</a>
   <a href="#metas">Metas</a>
@@ -119,26 +111,56 @@ footer {
 
 <div class="card fade" id="projeto">
 <h2>Projeto</h2>
-<p>Projeto estratégico de PD&I voltado à transformação digital inclusiva.</p>
+
+<p><strong>Objeto:</strong> Desenvolvimento de agenda estratégica de pesquisa, desenvolvimento e inovação (PD&I) voltada à transformação digital inclusiva.</p>
+
+<p>O projeto tem como finalidade estruturar soluções tecnológicas e informacionais que promovam inclusão digital, acessibilidade e fortalecimento da cidadania no Brasil.</p>
+
+<p>Inclui desenvolvimento de infraestrutura, produção de conhecimento e capacitação em tecnologias digitais.</p>
+
+<span class="tag">Área: Ciência da Informação</span>
+<span class="tag">Execução: 2026–2027</span>
 </div>
 
 <div class="card fade" id="justificativa">
 <h2>Justificativa</h2>
-<p>Inclusão digital e redução de desigualdades sociais.</p>
+
+<p>O Brasil enfrenta desigualdades estruturais no acesso às tecnologias digitais, afetando principalmente pessoas com deficiência, populações vulneráveis e regiões periféricas.</p>
+
+<p>A ausência de acessibilidade digital limita o acesso a serviços públicos, educação e oportunidades econômicas.</p>
+
+<p>O projeto atua diretamente na redução dessas barreiras por meio de soluções tecnológicas inclusivas e produção de conhecimento científico.</p>
+
+<p><strong>Base legal:</strong> Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência).</p>
 </div>
 
 <div class="card fade" id="metas">
 <h2>Metas</h2>
+
 <ul>
-<li>Diagnóstico nacional</li>
-<li>Implantação Hub-i3</li>
-<li>Capacitação</li>
+<li>Realizar diagnóstico nacional da acessibilidade digital</li>
+<li>Implantar infraestrutura tecnológica (Hub-i3)</li>
+<li>Desenvolver soluções baseadas em inteligência artificial</li>
+<li>Produzir recursos educacionais abertos (REA)</li>
+<li>Capacitar agentes públicos e sociedade civil</li>
 </ul>
+
+<p><strong>Status geral:</strong> Em execução</p>
 </div>
 
 <div class="card fade" id="metodo">
 <h2>Método</h2>
-<p>Pesquisa + desenvolvimento + disseminação.</p>
+
+<p>O projeto é estruturado em quatro etapas:</p>
+
+<ul>
+<li><strong>Fase A:</strong> Pesquisa e diagnóstico</li>
+<li><strong>Fase B:</strong> Desenvolvimento tecnológico</li>
+<li><strong>Fase C:</strong> Produção de conhecimento</li>
+<li><strong>Fase D:</strong> Capacitação e disseminação</li>
+</ul>
+
+<p>A abordagem integra pesquisa científica, desenvolvimento tecnológico e aplicação prática.</p>
 </div>
 
 <div class="card fade" id="equipe">
@@ -152,73 +174,56 @@ footer {
 
 <div class="card fade" id="atualizacoes">
 <h2>Atualizações</h2>
-<p>08/04/2026 — Portal lançado</p>
-<p>15/03/2026 — Início do projeto</p>
+
+<p><strong>08/04/2026:</strong> Publicação do portal de transparência ativa</p>
+<p><strong>15/03/2026:</strong> Início das atividades de pesquisa</p>
+
+<p>Novas atualizações serão inseridas conforme avanço da execução.</p>
+
 </div>
 
 </div>
 
 <div class="card sidebar">
 <h3>Dados Oficiais</h3>
-<p>Valor: R$ 2.000.000</p>
-<p>Status: Vigente</p>
-<p>IBICT / MCTI</p>
-</div>
+
+<p><strong>Valor:</strong> R$ 2.000.000,00</p>
+<p><strong>Status:</strong> Vigente</p>
+<p><strong>Órgão:</strong> IBICT / MCTI</p>
+<p><strong>Processo SEI:</strong> 13414304</p>
 
 </div>
 
-<footer>IBICT • MCTI</footer>
+</div>
+
+<footer>
+IBICT • Ministério da Ciência, Tecnologia e Inovação • Transparência Ativa
+</footer>
 
 <script>
-// DADOS
 const equipe = [
-  "Ricardo M. Pimenta",
-  "Andreia Rodrigues",
-  "Luana Lisboa",
-  "Juliana Aguiar"
+  "Ricardo M. Pimenta – Coordenador",
+  "Andreia Ribeiro Rodrigues – Pesquisadora",
+  "Luana da Costa Lisboa – Pesquisadora",
+  "Juliana Campos de Aguiar – Pesquisadora"
 ];
 
-// render equipe
-const lista = document.getElementById("listaEquipe");
-
-function renderEquipe(filtro=""){
-  lista.innerHTML = "";
+function renderEquipe(f=""){
+  const el = document.getElementById("listaEquipe");
+  el.innerHTML="";
   equipe
-    .filter(nome => nome.toLowerCase().includes(filtro.toLowerCase()))
-    .forEach(nome => {
-      const div = document.createElement("div");
-      div.textContent = nome;
-      lista.appendChild(div);
+    .filter(e=>e.toLowerCase().includes(f.toLowerCase()))
+    .forEach(e=>{
+      let div=document.createElement("div");
+      div.textContent=e;
+      el.appendChild(div);
     });
 }
 
 renderEquipe();
 
-// filtro
-document.getElementById("filtro").addEventListener("input", (e)=>{
+document.getElementById("filtro").addEventListener("input",e=>{
   renderEquipe(e.target.value);
-});
-
-// scroll spy (menu ativo)
-const sections = document.querySelectorAll(".card");
-const links = document.querySelectorAll("nav a");
-
-window.addEventListener("scroll", ()=>{
-  let current = "";
-
-  sections.forEach(sec=>{
-    const top = sec.offsetTop - 150;
-    if(window.scrollY >= top){
-      current = sec.id;
-    }
-  });
-
-  links.forEach(a=>{
-    a.classList.remove("active");
-    if(a.getAttribute("href") === "#"+current){
-      a.classList.add("active");
-    }
-  });
 });
 
 // animação
@@ -226,8 +231,7 @@ const fades = document.querySelectorAll(".fade");
 
 window.addEventListener("scroll", ()=>{
   fades.forEach(el=>{
-    const top = el.getBoundingClientRect().top;
-    if(top < window.innerHeight - 100){
+    if(el.getBoundingClientRect().top < window.innerHeight-100){
       el.classList.add("show");
     }
   });
