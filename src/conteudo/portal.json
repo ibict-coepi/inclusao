@@ -1,6 +1,7 @@
 {
   "selo": "Transparência Ativa",
-  "logoGoverno": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logotipo_do_Governo_do_Brasil_%282023%29.svg",
+  "logoGovernoCabecalho": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/central-de-conteudo/guias-e-manuais/uso-da-marca-do-governo-federal/arquivos-em-rgb/png-portable-network-graphics/logo_govfed_cor_rgb_positivo.png/@@images/image",
+  "logoGovernoRodape": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/central-de-conteudo/guias-e-manuais/uso-da-marca-do-governo-federal/arquivos-em-rgb/png-portable-network-graphics/logo_govfed_cor_rgb_negativo.png/@@images/image",
   "textosAlternativos": {
     "logoGoverno": "Logotipo do Governo do Brasil - União e Reconstrução"
   },
