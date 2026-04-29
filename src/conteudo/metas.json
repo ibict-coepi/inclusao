@@ -1,46 +1,62 @@
 [
   {
     "id": 1,
-    "titulo": "Diagnóstico e Pesquisa Aplicada",
-    "ano": 2026,
-    "status": "Concluído",
+    "titulo": "Diagnóstico e Mapeamento",
+    "periodo": "2026",
+    "status": "Em Execução",
     "detalhes": [
-      "Diagnóstico situacional da acessibilidade digital no Brasil",
-      "Levantamento de tecnologias assistivas de ponta",
-      "Publicação de relatório técnico consolidado"
+      "Identificação de bases de dados governamentais, acadêmicas, de saúde, ONGs e demais fontes relevantes",
+      "Mapeamento de políticas públicas por ciclos de vida, vulnerabilidades, instrumentos legais e atores",
+      "Sistematização de necessidades informacionais e tecnológicas de grupos em vulnerabilidade social",
+      "Identificação de gaps na literatura e nas bases disponíveis"
     ]
   },
   {
     "id": 2,
-    "titulo": "Implantação do Hub-i3",
-    "ano": 2026,
-    "status": "Em Execução",
+    "titulo": "Recursos Informacionais e Soluções Digitais Inclusivas",
+    "periodo": "2026 a 2027",
+    "status": "Planejado",
     "detalhes": [
-      "Estruturação da infraestrutura tecnológica do Hub-i3",
-      "Desenvolvimento de algoritmos de IA para curadoria inclusiva",
-      "Lançamento da plataforma beta para testes"
+      "Definição de requisitos técnicos e funcionais do Hub-i3",
+      "Desenvolvimento da arquitetura de dados e da interface de usuário",
+      "Programação, integração e testes de navegação, acesso e funcionalidades",
+      "Desenvolvimento de soluções e recursos digitais acessíveis e inclusivos"
     ]
   },
   {
     "id": 3,
-    "titulo": "Produção de Conhecimento e REA",
-    "ano": 2027,
+    "titulo": "Produção de Conhecimento e Subsídios",
+    "periodo": "2026 a 2028",
     "status": "Planejado",
     "detalhes": [
-      "Produção de 5 Policy Briefs sobre inclusão digital",
-      "Curadoria de 100+ Recursos Educacionais Abertos (REA)",
-      "Implementação do repositório digital acessível"
+      "Elaboração de relatório técnico com os principais achados",
+      "Criação de infográficos e materiais de sensibilização",
+      "Produção de policy briefs e recomendações para gestores e comunidade científica",
+      "Elaboração de diretrizes, encartes, manuais, coletâneas e demais recursos bibliográficos"
     ]
   },
   {
     "id": 4,
-    "titulo": "Capacitação e Disseminação",
-    "ano": 2027,
+    "titulo": "Formação e Capacitação",
+    "periodo": "2027 a 2028",
     "status": "Planejado",
     "detalhes": [
-      "Realização de 4 workshops nacionais",
-      "Treinamento de 200+ multiplicadores em tecnologias assistivas",
-      "Apresentação de resultados em congressos internacionais"
+      "Implantação de repositório de Recursos Educacionais Abertos integrado ao Hub-i3",
+      "Produção de materiais educacionais digitais acessíveis",
+      "Desenvolvimento de trilhas de aprendizagem, cursos livres e cursos autoinstrucionais",
+      "Realização de mesas, palestras e atividades presenciais, híbridas e remotas"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Disseminação e Articulação",
+    "periodo": "2027 a 2028",
+    "status": "Planejado",
+    "detalhes": [
+      "Organização de seminários, oficinas e eventos científicos",
+      "Oficina para utilização do Hub de Informação, Inovação e Inclusão",
+      "Apresentação de trabalhos, publicação de artigos e divulgação de resultados",
+      "Ações de popularização do conhecimento e fortalecimento de redes de colaboração"
     ]
   }
 ]
