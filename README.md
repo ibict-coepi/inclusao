@@ -1,6 +1,6 @@
 # Portal de Transparência IBICT
 
-Este projeto é um site com objetivo de dar transparência ao projeto.
+Este projeto é um site estático feito com React e Vite. Ele pode ser publicado no GitHub Pages sem chave do Gemini.
 
 ## Como alterar os textos
 
@@ -14,10 +14,25 @@ Arquivos principais:
 
 - `portal.json`: título, subtítulo, dados oficiais, apresentação, justificativa, metodologia, rodapé e links.
 - `metas.json`: objetivos e metas.
+- `orcamento.json`: previsão orçamentária por rubrica.
+- `documentos.json`: documentos oficiais do projeto.
+- `levantamento.json`: eixos do levantamento exploratório.
 - `equipe.json`: lista de integrantes da equipe.
 - `atualizacoes.json`: atualizações do projeto.
 
 Há um guia curto em `src/conteudo/COMO_EDITAR.md`.
+
+## Transparência ativa
+
+O site foi organizado para mostrar:
+
+- dados oficiais do contrato;
+- metas, cronograma e resultados esperados;
+- previsão orçamentária;
+- documentos oficiais;
+- levantamento exploratório;
+- equipe sem dados pessoais sensíveis;
+- atualizações públicas do projeto.
 
 ## Como testar no computador
 
