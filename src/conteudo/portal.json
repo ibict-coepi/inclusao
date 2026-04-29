@@ -3,20 +3,24 @@
   "logoGovernoCabecalho": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/central-de-conteudo/guias-e-manuais/uso-da-marca-do-governo-federal/arquivos-em-rgb/png-portable-network-graphics/logo_govfed_cor_rgb_positivo.png/@@images/image",
   "logoGovernoRodape": "https://www.gov.br/secom/pt-br/acompanhe-a-secom/central-de-conteudo/guias-e-manuais/uso-da-marca-do-governo-federal/arquivos-em-rgb/png-portable-network-graphics/logo_govfed_cor_rgb_negativo.png/@@images/image",
   "textosAlternativos": {
-    "logoGoverno": "Logotipo do Governo do Brasil - União e Reconstrução"
+    "logoGoverno": "Logotipo do Governo Federal"
   },
   "projeto": {
     "nome": "PD&I em Informação para a Transformação Digital Inclusiva",
-    "subtitulo": "Cidadania, acessibilidade e ensino através da Ciência e Tecnologia",
-    "contrato": "27/2025",
-    "processoSei": "13414304",
+    "subtitulo": "Cidadania, acessibilidade e ensino",
+    "contrato": "027/2025",
+    "processoSei": "13403180",
+    "uasg": "240121",
     "valor": "R$ 2.000.000,00",
-    "status": "Vigente",
+    "vigencia": "31/12/2025 a 31/12/2028",
+    "status": "Em execução",
+    "baseLegal": "Lei nº 14.133/2021, art. 75, XV",
+    "publicacao": "DOU, Seção 3, 05/01/2026",
     "coordenador": "Ricardo M. Pimenta",
     "instituicao": "IBICT / MCTI",
     "gestora": "FUNDEP",
-    "apoio": "Emenda Parlamentar (Sen. Izalci Lucas)",
-    "ultimaAtualizacao": "08/04/2026"
+    "apoio": "Emenda Parlamentar",
+    "ultimaAtualizacao": "29/04/2026"
   },
   "links": {
     "govbr": "https://www.gov.br",
@@ -42,20 +46,28 @@
   ],
   "menu": [
     {
-      "id": "apresentacao",
-      "label": "Projeto"
+      "id": "visao",
+      "label": "Visão Geral"
     },
     {
-      "id": "justificativa",
-      "label": "Justificativa"
+      "id": "dados",
+      "label": "Dados"
     },
     {
-      "id": "objetivos",
+      "id": "metas",
       "label": "Metas"
     },
     {
-      "id": "metodologia",
-      "label": "Método"
+      "id": "financeiro",
+      "label": "Financeiro"
+    },
+    {
+      "id": "documentos",
+      "label": "Documentos"
+    },
+    {
+      "id": "levantamento",
+      "label": "Pesquisa"
     },
     {
       "id": "equipe",
@@ -67,72 +79,57 @@
     }
   ],
   "apresentacao": {
-    "rotulo": "Visão Estratégica",
-    "destaque": "Uma agenda estratégica de Ciência, Tecnologia e Inovação (CT&I) para a soberania digital brasileira.",
+    "rotulo": "Projeto de pesquisa vinculado ao IBICT",
+    "destaque": "Pesquisa exploratória e aplicada em Ciência da Informação para apoiar políticas públicas, inclusão digital, acessibilidade e cidadania.",
     "paragrafos": [
-      "O projeto \"PD&I em Informação para a Transformação Digital Inclusiva\" surge como uma resposta aos desafios da Quarta Revolução Industrial. Ele não se limita à entrega de software, mas propõe uma reestruturação informacional profunda, mediada por tecnologias de ponta, para reorganizar o trabalho e a sociabilidade no Brasil."
+      "O projeto desenvolve ações integradas de pesquisa, desenvolvimento e inovação em informação e tecnologias digitais, com foco na elaboração de soluções e recursos digitais acessíveis e na promoção de competências críticas informacionais e digitais.",
+      "A proposta articula diagnóstico, desenvolvimento do Hub-i3, produção de conhecimento, formação e disseminação científica, considerando ciclos de vida, vulnerabilidades sociais, dados, instrumentos legais e atores envolvidos em políticas públicas."
     ],
     "cards": [
       {
-        "icone": "crescimento",
-        "titulo": "Nova Industrialização",
-        "texto": "Domínio de tecnologias críticas como IA, IoT e Comunicações Avançadas para garantir a autonomia tecnológica do país."
+        "icone": "dados",
+        "titulo": "Informação como eixo estruturante",
+        "texto": "O projeto organiza dados, evidências, bases públicas e referências técnicas para subsidiar ações de PD&I e recomendações para políticas públicas."
       },
       {
-        "icone": "globo",
-        "titulo": "Impacto Social",
-        "texto": "Desenvolvimento de soluções acessíveis que promovem a inclusão digital e a cidadania plena para grupos vulneráveis."
+        "icone": "camadas",
+        "titulo": "Acessibilidade desde a concepção",
+        "texto": "A metodologia adota perspectiva sociotécnica, com atenção a acessibilidade digital, usabilidade, desenho universal e inclusão."
       }
     ]
   },
+  "objetivoGeral": "Desenvolver um modelo integrado de gestão da informação estruturado por ações de pesquisa, desenvolvimento e inovação, com o emprego de tecnologias digitais voltadas à elaboração de soluções e recursos digitais que promovam acessibilidade, visibilidade de dados e competências críticas informacionais e digitais.",
+  "financeiro": {
+    "texto": "Previsão orçamentária simplificada conforme plano de trabalho e plano de aplicação do projeto.",
+    "observacao": "Os valores podem ser atualizados durante a execução do projeto, conforme revisão do plano de trabalho e do detalhamento orçamentário."
+  },
   "resultadosEsperados": [
     {
-      "titulo": "Hub-i3 Operacional",
-      "descricao": "Infraestrutura de dados integrada para inovação inclusiva."
+      "titulo": "Inventário estruturado",
+      "descricao": "Mapeamento de iniciativas, soluções tecnológicas, bases de dados, instrumentos legais e atores relevantes."
     },
     {
-      "titulo": "Guia de Ética em IA",
-      "descricao": "Diretrizes para o uso responsável de IA no setor público."
+      "titulo": "Hub-i3",
+      "descricao": "Ambiente digital para informação, inovação, inclusão, disseminação de resultados e articulação em rede."
     },
     {
-      "titulo": "Repositório REA",
-      "descricao": "Recursos Educacionais Abertos acessíveis a toda a população."
+      "titulo": "Subsídios técnicos",
+      "descricao": "Relatórios, policy briefs, diretrizes, infográficos e recomendações baseadas em evidências."
     },
     {
-      "titulo": "Toolbox Digital",
-      "descricao": "Conjunto de ferramentas para letramento digital e cidadania."
+      "titulo": "Recursos Educacionais Abertos",
+      "descricao": "Materiais digitais acessíveis, trilhas de aprendizagem, cursos livres e conteúdos autoinstrucionais."
+    },
+    {
+      "titulo": "Formação e capacitação",
+      "descricao": "Oficinas, eventos, mesas, palestras e ações voltadas a competências informacionais e digitais."
+    },
+    {
+      "titulo": "Disseminação científica",
+      "descricao": "Publicações, eventos científicos, divulgação científica e fortalecimento de redes de colaboração."
     }
   ],
-  "justificativa": {
-    "numeroDestaque": "14,4mi",
-    "textoDestaque": "Pessoas com deficiência no Brasil enfrentam barreiras críticas de acesso ao mundo digital.",
-    "citacao": "A lacuna social no acesso digital para mulheres, negros, indígenas e PcD é um entrave ao desenvolvimento nacional que este projeto busca mitigar através da PD&I.",
-    "alinhamento": "Alinhamento: Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência)"
-  },
-  "objetivoGeral": "Desenvolver uma agenda estratégica de PD&I em informação voltada para a transformação digital inclusiva, visando a soberania tecnológica e o impacto social através da reestruturação informacional mediada por tecnologias digitais.",
-  "metodologia": [
-    {
-      "fase": "Fase A",
-      "titulo": "Pesquisa e Diagnóstico",
-      "descricao": "Revisão literária e análise de bases de dados governamentais para identificar gargalos de acessibilidade."
-    },
-    {
-      "fase": "Fase B",
-      "titulo": "Desenvolvimento do Hub-i3",
-      "descricao": "Criação da arquitetura de dados e infraestrutura para inovação digital inclusiva."
-    },
-    {
-      "fase": "Fase C",
-      "titulo": "Curadoria e Conhecimento",
-      "descricao": "Produção de Policy Briefs e repositório de Recursos Educacionais Abertos (REA)."
-    },
-    {
-      "fase": "Fase D",
-      "titulo": "Capacitação em Rede",
-      "descricao": "Disseminação científica e treinamento para uso de tecnologias assistivas."
-    }
-  ],
-  "textoAguardandoAtualizacoes": "Aguardando novas etapas de execução para inclusão de relatórios e entregas.",
+  "equipeObservacao": "Esta página publica apenas informações institucionais necessárias ao acompanhamento público. Dados pessoais sensíveis, como CPF, SIAPE e valores individuais, não devem ser exibidos.",
   "rodape": {
     "orgao": "IBICT",
     "descricao": "Instituto Brasileiro de Informação em Ciência e Tecnologia. Ministério da Ciência, Tecnologia e Inovação.",
