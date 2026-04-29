@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Montserrat:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+
+  --color-gov-blue: #004580;
+  --color-gov-light-blue: #1688d0;
+  --color-gov-gold: #ffcc00;
+  --color-gov-gray-light: #f8f8f8;
+  --color-gov-gray-medium: #eeeeee;
+  --color-gov-gray-dark: #333333;
+  --color-gov-success: #168821;
+  
+  --shadow-bento: 0 4px 20px -2px rgba(0, 69, 128, 0.08), 0 2px 8px -1px rgba(0, 0, 0, 0.04);
+  --shadow-bento-hover: 0 12px 30px -4px rgba(0, 69, 128, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-gov-gray-dark bg-[#fafafa] leading-relaxed;
+  }
+  h1, h2, h3 {
+    @apply font-display tracking-tight;
+  }
+}
+
+@layer components {
+  .br-header {
+    @apply border-b border-gov-gray-medium py-3 px-[5%] flex justify-between items-center bg-white/80 backdrop-blur-md sticky top-0 z-[60];
+  }
+  
+  .project-hero {
+    @apply bg-gov-blue text-white py-16 px-[5%] text-center relative overflow-hidden;
+  }
+
+  .main-nav {
+    @apply bg-white border-b border-gov-gray-medium sticky top-[49px] z-50 overflow-x-auto whitespace-nowrap shadow-sm;
+  }
+
+  .bento-card {
+    @apply bg-white p-6 rounded-xl border border-gray-100 shadow-bento transition-all duration-300 hover:shadow-bento-hover hover:-translate-y-1;
+  }
+
+  .timeline-item {
+    @apply p-4 pl-6 border-l-4 border-gov-light-blue relative mb-4 bg-white rounded-r-lg shadow-sm;
+  }
+
+  .timeline-item::before {
+    content: "";
+    @apply absolute -left-[9px] top-[20px] w-4 h-4 bg-gov-light-blue rounded-full border-4 border-white shadow-sm;
+  }
+
+  .gov-button {
+    @apply px-6 py-2.5 rounded-full font-bold text-sm transition-all duration-200 flex items-center gap-2;
+  }
+
+  .gov-button-primary {
+    @apply bg-gov-blue text-white hover:bg-gov-light-blue shadow-md hover:shadow-lg;
+  }
+
+  .gov-button-outline {
+    @apply border-2 border-gov-blue text-gov-blue hover:bg-gov-blue hover:text-white;
+  }
+
+  .gov-logo-header {
+    @apply h-10 w-auto transition-opacity duration-200 py-1;
+  }
+
+  .gov-logo-footer {
+    @apply h-14 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-200;
+  }
+}
