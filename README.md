@@ -1,6 +1,6 @@
 # Portal de Transparência IBICT
 
-Este projeto é um site estático feito com React e Vite. Ele pode ser publicado no GitHub Pages sem chave do Gemini.
+Este projeto é um site com objetivo de dar transparência ao projeto.
 
 ## Como alterar os textos
 
