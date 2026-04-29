@@ -530,8 +530,24 @@ function SecaoEquipe({
         <AnimatePresence mode="popLayout">
           {equipeFiltrada.map((member) => (
             <motion.div key={member.nome} layout initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} className="p-3 border border-gray-50 rounded-xl hover:bg-gray-50 transition-colors">
-              <h3 className="font-bold text-xs text-gov-blue">{member.nome}</h3>
-              <p className="text-[9px] text-gray-400 font-medium">{member.funcao}</p>
+           <div className="flex items-start justify-between gap-3">
+  <div>
+    <h3 className="font-bold text-xs text-gov-blue">{member.nome}</h3>
+    <p className="text-[9px] text-gray-400 font-medium">{member.funcao}</p>
+  </div>
+
+  {member.lattes && (
+    <a
+      href={member.lattes}
+      target="_blank"
+      rel="noreferrer"
+      className="text-[9px] font-black uppercase tracking-widest text-gov-blue hover:text-gov-light-blue no-underline"
+    >
+      Lattes
+    </a>
+  )}
+</div>
+
             </motion.div>
           ))}
         </AnimatePresence>
