@@ -1,0 +1,29 @@
+{
+  "descricao": "O levantamento exploratório organiza políticas públicas e fontes de informação em dimensões que ajudam a identificar públicos, vulnerabilidades, bases de dados, instrumentos legais e atores envolvidos.",
+  "eixos": [
+    {
+      "titulo": "Levantamento geral",
+      "descricao": "Identifica área, subárea, nome da política ou programa, tipo, órgão responsável, esfera, ano de início e fonte."
+    },
+    {
+      "titulo": "Ciclo de vida",
+      "descricao": "Relaciona as políticas a faixas etárias, ciclos de vida e públicos principais."
+    },
+    {
+      "titulo": "Vulnerabilidade",
+      "descricao": "Registra marcadores como deficiência, renda, território, raça, gênero e outros fatores sociais relevantes."
+    },
+    {
+      "titulo": "Instrumentos legais",
+      "descricao": "Mapeia leis, decretos, normas, ementas e links que sustentam as políticas identificadas."
+    },
+    {
+      "titulo": "Dados e indicadores",
+      "descricao": "Aponta bases de dados, tipos de dado, indicadores e existência de recortes etários ou sociais."
+    },
+    {
+      "titulo": "Atores e análise crítica",
+      "descricao": "Organiza órgãos principais, parceiros, sociedade civil, setor privado, evidências de impacto e grau de cobertura."
+    }
+  ]
+}
