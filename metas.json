@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "titulo": "Diagnóstico e Pesquisa Aplicada",
+    "ano": 2026,
+    "status": "Concluído",
+    "detalhes": [
+      "Diagnóstico situacional da acessibilidade digital no Brasil",
+      "Levantamento de tecnologias assistivas de ponta",
+      "Publicação de relatório técnico consolidado"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Implantação do Hub-i3",
+    "ano": 2026,
+    "status": "Em Execução",
+    "detalhes": [
+      "Estruturação da infraestrutura tecnológica do Hub-i3",
+      "Desenvolvimento de algoritmos de IA para curadoria inclusiva",
+      "Lançamento da plataforma beta para testes"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Produção de Conhecimento e REA",
+    "ano": 2027,
+    "status": "Planejado",
+    "detalhes": [
+      "Produção de 5 Policy Briefs sobre inclusão digital",
+      "Curadoria de 100+ Recursos Educacionais Abertos (REA)",
+      "Implementação do repositório digital acessível"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Capacitação e Disseminação",
+    "ano": 2027,
+    "status": "Planejado",
+    "detalhes": [
+      "Realização de 4 workshops nacionais",
+      "Treinamento de 200+ multiplicadores em tecnologias assistivas",
+      "Apresentação de resultados em congressos internacionais"
+    ]
+  }
+]

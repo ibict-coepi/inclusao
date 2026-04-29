@@ -1,0 +1,153 @@
+{
+  "selo": "Transparência Ativa",
+  "logoGoverno": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logotipo_do_Governo_do_Brasil_%282023%29.svg",
+  "textosAlternativos": {
+    "logoGoverno": "Logotipo do Governo do Brasil - União e Reconstrução"
+  },
+  "projeto": {
+    "nome": "PD&I em Informação para a Transformação Digital Inclusiva",
+    "subtitulo": "Cidadania, acessibilidade e ensino através da Ciência e Tecnologia",
+    "contrato": "27/2025",
+    "processoSei": "13414304",
+    "valor": "R$ 2.000.000,00",
+    "status": "Vigente",
+    "coordenador": "Ricardo M. Pimenta",
+    "instituicao": "IBICT / MCTI",
+    "gestora": "FUNDEP",
+    "apoio": "Emenda Parlamentar (Sen. Izalci Lucas)",
+    "ultimaAtualizacao": "08/04/2026"
+  },
+  "links": {
+    "govbr": "https://www.gov.br",
+    "sei": "https://sei.mcti.gov.br/verifica.html"
+  },
+  "linksCabecalho": [
+    {
+      "label": "Órgãos",
+      "href": "https://www.gov.br/pt-br/orgaos-do-governo"
+    },
+    {
+      "label": "Acesso à Informação",
+      "href": "https://www.gov.br/acessoainformacao/pt-br"
+    },
+    {
+      "label": "Legislação",
+      "href": "https://www.gov.br/governodigital/pt-br/legislacao"
+    },
+    {
+      "label": "Canais",
+      "href": "https://www.gov.br/pt-br/canais-de-atendimento"
+    }
+  ],
+  "menu": [
+    {
+      "id": "apresentacao",
+      "label": "Projeto"
+    },
+    {
+      "id": "justificativa",
+      "label": "Justificativa"
+    },
+    {
+      "id": "objetivos",
+      "label": "Metas"
+    },
+    {
+      "id": "metodologia",
+      "label": "Método"
+    },
+    {
+      "id": "equipe",
+      "label": "Equipe"
+    },
+    {
+      "id": "atualizacoes",
+      "label": "Atualizações"
+    }
+  ],
+  "apresentacao": {
+    "rotulo": "Visão Estratégica",
+    "destaque": "Uma agenda estratégica de Ciência, Tecnologia e Inovação (CT&I) para a soberania digital brasileira.",
+    "paragrafos": [
+      "O projeto \"PD&I em Informação para a Transformação Digital Inclusiva\" surge como uma resposta aos desafios da Quarta Revolução Industrial. Ele não se limita à entrega de software, mas propõe uma reestruturação informacional profunda, mediada por tecnologias de ponta, para reorganizar o trabalho e a sociabilidade no Brasil."
+    ],
+    "cards": [
+      {
+        "icone": "crescimento",
+        "titulo": "Nova Industrialização",
+        "texto": "Domínio de tecnologias críticas como IA, IoT e Comunicações Avançadas para garantir a autonomia tecnológica do país."
+      },
+      {
+        "icone": "globo",
+        "titulo": "Impacto Social",
+        "texto": "Desenvolvimento de soluções acessíveis que promovem a inclusão digital e a cidadania plena para grupos vulneráveis."
+      }
+    ]
+  },
+  "resultadosEsperados": [
+    {
+      "titulo": "Hub-i3 Operacional",
+      "descricao": "Infraestrutura de dados integrada para inovação inclusiva."
+    },
+    {
+      "titulo": "Guia de Ética em IA",
+      "descricao": "Diretrizes para o uso responsável de IA no setor público."
+    },
+    {
+      "titulo": "Repositório REA",
+      "descricao": "Recursos Educacionais Abertos acessíveis a toda a população."
+    },
+    {
+      "titulo": "Toolbox Digital",
+      "descricao": "Conjunto de ferramentas para letramento digital e cidadania."
+    }
+  ],
+  "justificativa": {
+    "numeroDestaque": "14,4mi",
+    "textoDestaque": "Pessoas com deficiência no Brasil enfrentam barreiras críticas de acesso ao mundo digital.",
+    "citacao": "A lacuna social no acesso digital para mulheres, negros, indígenas e PcD é um entrave ao desenvolvimento nacional que este projeto busca mitigar através da PD&I.",
+    "alinhamento": "Alinhamento: Lei nº 13.146/2015 (Estatuto da Pessoa com Deficiência)"
+  },
+  "objetivoGeral": "Desenvolver uma agenda estratégica de PD&I em informação voltada para a transformação digital inclusiva, visando a soberania tecnológica e o impacto social através da reestruturação informacional mediada por tecnologias digitais.",
+  "metodologia": [
+    {
+      "fase": "Fase A",
+      "titulo": "Pesquisa e Diagnóstico",
+      "descricao": "Revisão literária e análise de bases de dados governamentais para identificar gargalos de acessibilidade."
+    },
+    {
+      "fase": "Fase B",
+      "titulo": "Desenvolvimento do Hub-i3",
+      "descricao": "Criação da arquitetura de dados e infraestrutura para inovação digital inclusiva."
+    },
+    {
+      "fase": "Fase C",
+      "titulo": "Curadoria e Conhecimento",
+      "descricao": "Produção de Policy Briefs e repositório de Recursos Educacionais Abertos (REA)."
+    },
+    {
+      "fase": "Fase D",
+      "titulo": "Capacitação em Rede",
+      "descricao": "Disseminação científica e treinamento para uso de tecnologias assistivas."
+    }
+  ],
+  "textoAguardandoAtualizacoes": "Aguardando novas etapas de execução para inclusão de relatórios e entregas.",
+  "rodape": {
+    "orgao": "IBICT",
+    "descricao": "Instituto Brasileiro de Informação em Ciência e Tecnologia. Ministério da Ciência, Tecnologia e Inovação.",
+    "localizacaoTitulo": "Localização (RJ)",
+    "endereco": "Rua Lauro Müller, 455 - 4º andar, Botafogo, Rio de Janeiro/RJ | CEP 22290-160",
+    "atendimento": "Atendimento: Segunda a Sexta, 09h às 17h",
+    "copyright": "© 2026 IBICT - Transparência Ativa"
+  },
+  "linksRodape": [
+    {
+      "label": "Ouvidoria",
+      "href": "https://www.gov.br/pt-br/canais-de-atendimento/ouvidoria"
+    },
+    {
+      "label": "Acesso à Informação",
+      "href": "https://www.gov.br/acessoainformacao/pt-br"
+    }
+  ]
+}
