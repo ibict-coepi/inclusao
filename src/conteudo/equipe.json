@@ -3,30 +3,35 @@
     "nome": "Ricardo M. Pimenta",
     "funcao": "Coordenador / Servidor",
     "horas": "7,75h",
-    "categoria": "Liderança"
+    "categoria": "Liderança",
+    "lattes": "http://lattes.cnpq.br/0416440515458304"
   },
   {
     "nome": "André Januário da Silva",
     "funcao": "Pesquisador",
     "horas": "20h",
-    "categoria": "Pesquisa"
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/"
   },
   {
     "nome": "Andreia Ribeiro Rodrigues",
     "funcao": "Pesquisadora",
     "horas": "30h",
-    "categoria": "Pesquisa"
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/"
   },
   {
     "nome": "Juliana Campos de Aguiar",
     "funcao": "Pesquisadora",
     "horas": "22,5h",
-    "categoria": "Pesquisa"
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/"
   },
   {
     "nome": "Luana da Costa Lisboa",
     "funcao": "Pesquisadora",
     "horas": "25h",
-    "categoria": "Pesquisa"
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/"
   }
 ]
