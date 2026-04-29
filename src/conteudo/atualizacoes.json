@@ -1,12 +1,17 @@
 [
   {
-    "data": "08/04/2026",
-    "titulo": "Lançamento do Portal de Transparência",
-    "descricao": "Plataforma de transparência ativa iniciada para acompanhamento público."
+    "data": "29/04/2026",
+    "titulo": "Revisão do portal para transparência ativa",
+    "descricao": "Conteúdo reorganizado com dados oficiais, metas, orçamento, documentos, levantamento exploratório e acompanhamento público."
   },
   {
-    "data": "15/03/2026",
-    "titulo": "Início da Fase A",
-    "descricao": "Coleta de dados e revisão bibliográfica sobre acessibilidade digital no Brasil."
+    "data": "05/01/2026",
+    "titulo": "Publicação do contrato no DOU",
+    "descricao": "Extrato do contrato nº 027/2025 publicado no Diário Oficial da União, com vigência de 31/12/2025 a 31/12/2028."
+  },
+  {
+    "data": "31/12/2025",
+    "titulo": "Assinatura do contrato",
+    "descricao": "Formalização do apoio da FUNDEP à gestão administrativa e financeira do projeto de pesquisa."
   }
 ]
