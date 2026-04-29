@@ -68,10 +68,10 @@
   }
 
   .gov-logo-header {
-    @apply h-10 w-auto transition-opacity duration-200 py-1;
+    @apply h-11 w-auto transition-opacity duration-200 py-1;
   }
 
   .gov-logo-footer {
-    @apply h-14 w-auto brightness-0 invert opacity-90 hover:opacity-100 transition-opacity duration-200;
+    @apply h-16 w-auto opacity-90 hover:opacity-100 transition-opacity duration-200;
   }
 }
