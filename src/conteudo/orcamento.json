@@ -1,0 +1,34 @@
+[
+  {
+    "rubrica": "Bolsa de Pesquisa",
+    "valor": 1120000
+  },
+  {
+    "rubrica": "Serviços Pessoa Jurídica",
+    "valor": 180000
+  },
+  {
+    "rubrica": "Serviços Pessoa Física",
+    "valor": 130000
+  },
+  {
+    "rubrica": "Material de Consumo",
+    "valor": 20000
+  },
+  {
+    "rubrica": "Diárias",
+    "valor": 70000
+  },
+  {
+    "rubrica": "Passagens",
+    "valor": 100000
+  },
+  {
+    "rubrica": "Ressarcimento Institucional",
+    "valor": 200000
+  },
+  {
+    "rubrica": "Custo Operacional",
+    "valor": 200000
+  }
+]
