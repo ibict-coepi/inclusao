@@ -2,36 +2,50 @@
   {
     "nome": "Ricardo M. Pimenta",
     "funcao": "Coordenador / Servidor",
-    "horas": "7,75h",
+    "horas": "",
     "categoria": "Liderança",
     "lattes": "http://lattes.cnpq.br/0416440515458304"
   },
   {
-    "nome": "André Januário da Silva",
+    "nome": "Victor Soares Rosa",
     "funcao": "Pesquisador",
-    "horas": "20h",
+    "horas": "",
     "categoria": "Pesquisa",
-    "lattes": "http://lattes.cnpq.br/"
+    "lattes": "http://lattes.cnpq.br/4914431334459165"
   },
   {
-    "nome": "Andreia Ribeiro Rodrigues",
+    "nome": "Patricia dos Santos Costa",
     "funcao": "Pesquisadora",
-    "horas": "30h",
+    "horas": "",
     "categoria": "Pesquisa",
-    "lattes": "http://lattes.cnpq.br/"
+    "lattes": "http://lattes.cnpq.br/9076440138265869"
   },
   {
-    "nome": "Juliana Campos de Aguiar",
+    "nome": "Fernanda do Valle Galvão Debetto",
     "funcao": "Pesquisadora",
-    "horas": "22,5h",
+    "horas": "",
     "categoria": "Pesquisa",
-    "lattes": "http://lattes.cnpq.br/"
+    "lattes": "http://lattes.cnpq.br/6027868789058693"
   },
   {
-    "nome": "Luana da Costa Lisboa",
-    "funcao": "Pesquisadora",
-    "horas": "25h",
+    "nome": "Fabio Castro Gouveia",
+    "funcao": "Pesquisador",
+    "horas": "",
     "categoria": "Pesquisa",
-    "lattes": "http://lattes.cnpq.br/"
+    "lattes": "http://lattes.cnpq.br/0733908324235348"
+  },
+  {
+    "nome": "Andreia Ingrid Michele do Nascimento",
+    "funcao": "Pesquisadora",
+    "horas": "",
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/0305152044353016"
+  },
+  {
+    "nome": "Valquer Cleyton Paes Gandra",
+    "funcao": "Pesquisador",
+    "horas": "",
+    "categoria": "Pesquisa",
+    "lattes": "http://lattes.cnpq.br/3848258502264847"
   }
 ]
