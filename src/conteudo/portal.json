@@ -1,7 +1,7 @@
 {
   "selo": "Transparência Ativa",
-  "logoGovernoCabecalho": "/inclusao/imagens/logoescuro.png",
-  "logoGovernoRodape": "/inclusao/imagens/logoclaro.png",
+  "logoGovernoCabecalho": "/inclusao/logoescuro.png",
+  "logoGovernoRodape": "/inclusao/logobranca.png",
   "textosAlternativos": {
     "logoGoverno": "Logotipo do Governo Federal"
   },
