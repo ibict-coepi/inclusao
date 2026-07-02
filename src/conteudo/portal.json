@@ -1,7 +1,7 @@
 {
   "selo": "Transparência Ativa",
-  "logoGovernoCabecalho": "src/conteudo/imagens/Logo periodo defeso transparente.png",
-  "logoGovernoRodape": "src/conteudo/imagens/Logo periodo defeso branca.png",
+  "logoGovernoCabecalho": "src/conteudo/imagens/logoescuro.png",
+  "logoGovernoRodape": "src/conteudo/imagens/logoclaro.png",
   "textosAlternativos": {
     "logoGoverno": "Logotipo do Governo Federal"
   },
